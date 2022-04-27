@@ -4,9 +4,12 @@ import "./App.css";
 
 function App() {
     return (
-        <>
-            <h1>JuniorBay</h1>
-        </>
+        <div className="main__container">
+            <div className="title__container">
+                <h1>JuniorBay</h1>
+                <h2>Secret Developers Base Project</h2>
+            </div>
+        </div>
     );
 }
 
